@@ -1,19 +1,36 @@
 object Form1: TForm1
   Left = 256
-  Height = 271
+  Height = 308
   Top = 114
-  Width = 320
-  Caption = 'Form1'
-  ClientHeight = 271
-  ClientWidth = 320
+  Width = 394
+  Caption = 'Helo'
+  ClientHeight = 308
+  ClientWidth = 394
+  Color = clActiveBorder
   LCLVersion = '2.0.6.0'
   object Button1: TButton
-    Left = 24
+    Left = 120
     Height = 25
-    Top = 32
+    Top = 56
     Width = 75
-    Caption = 'Button1'
+    Caption = 'Halo'
     OnClick = Button1Click
     TabOrder = 0
+  end
+  object eNama: TEdit
+    Left = 24
+    Height = 23
+    Top = 56
+    Width = 80
+    TabOrder = 1
+    Text = 'eNama'
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 24
+    Width = 32
+    Caption = 'Nama'
+    ParentColor = False
   end
 end
