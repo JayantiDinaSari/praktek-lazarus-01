@@ -16,6 +16,7 @@ type
     eNama: TEdit;
     Label1: TLabel;
     procedure Button1Click(Sender: TObject);
+    procedure eNamaChange(Sender: TObject);
   private
 
   public
@@ -33,7 +34,12 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  ShowMessage('Hello'+eNama.text);
+  ShowMessage('Hello' +eNama.text);
+end;
+
+procedure TForm1.eNamaChange(Sender: TObject);
+begin
+
 end;
 
 end.
