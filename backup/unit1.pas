@@ -32,8 +32,33 @@ implementation
 { TForm1 }
 
 procedure TForm1.Button1Click(Sender: TObject);
+var
+  namaDepan: string;
+  namaTengah, namaBelakang: string;
+  usia: integer;
+  targetKuliah: integer;
+  IPK: double;
+  nilaiAbjad: char;
+  tampan: boolean;
 begin
-     ShowMessage('Hello'+eNama.text);
+   namaDepan:= 'Jayanti';
+   namaTengah:= 'Dina';
+   namaBelakang:= 'Sari';
+   usia:=18;
+   IPK:=3.896572431;
+   nilaiAbjad:='A';
+   tampan:=false;
+
+   //MessageDlg('Judul Pesan',namaDepan + ' ' +
+   //namaTengah + ' ' + namaBelakang, mtInformation,[mbOK],0);
+   //
+   //MessageDlg('Usia',IntToStr(usia), mtInformation,[mbOK],0);
+
+   //MessageDlg('IPK',FloatToStrF(IPK,ffFixed,3,2), mtInformation,[mbOK],0);
+
+   //MessageDlg('Tampan',BoolToStr(tampan), mtInformation,[mbOK],0);
+
+   MessageDlg('Hari Ini',FormatDateTime('ddd, dd-MMMM-yyyy',now), mtInformation,[mbOK],0);
 end;
 
 end.
