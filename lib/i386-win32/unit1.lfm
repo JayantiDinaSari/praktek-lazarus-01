@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 256
+  Left = 258
   Height = 308
-  Top = 114
+  Top = 121
   Width = 394
   Caption = 'Helo'
   ClientHeight = 308
@@ -22,7 +22,6 @@ object Form1: TForm1
     Height = 23
     Top = 56
     Width = 80
-    OnChange = eNamaChange
     TabOrder = 1
     Text = 'eNama'
   end
